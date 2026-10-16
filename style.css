@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+   scroll-behavior: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.first{
+    color: white;
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   font-weight: bold;
+   font-size: 20px;
+  
+}
+.first img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+   left: 0;
+   z-index: 0;
+}
+#first-header{
+    width: 100%;
+    height: 8%;
+   position: relative;
+   z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+#first-header button{
+    width:80px;
+    border-radius: 10px;
+}
+#first-right{
+    margin-left: auto;
+}
+#section{
+    height: 92%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#section p{
+    font-size: 120px;
+}
+#section span{
+    display: inline-block; 
+    padding-bottom: 8px;  
+    border-bottom: 2px dashed #ffffff;
+}
+.second{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#second-header{
+    color: black;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#second-header p{
+    font-size: 50px;
+    font-weight: bold;
+}
+#second-section{
+    height: 84%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+.card{
+    
+    height: 75%;
+    width: 25%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+.card img{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    object-fit: cover;
+}
+.card-content {
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.third{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+#third-left{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+#third-left img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+}
+#third-right{
+    width: 50%;
+    height:100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    text-align: center;
+}
+#third-right p{
+    font-size: 20px;
+}
+.forth{
+    width: 100%;
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+    
+}
+#top{
+    
+    width: 100%;
+    height: 50%;
+   
+    display: flex;
+background-color: rgb(243, 239, 239);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.input-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+.submit-btn{
+    width: 100px;
+    border-radius: 10px;
+}
+#bottom{
+    height: 50%;
+    width: 100%;
+    
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
